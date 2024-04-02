@@ -37,8 +37,11 @@ Using regression analysis and principal component analysis (PCA), this project a
 
 ## Results
 Soil Data Clustering: Identified three distinct soil types, providing a basis for customized agricultural approaches.
+
 Market Basket Analysis: Revealed strong association rules that provide insights into the interconnectedness of country visits.
+
 Abalone Age Prediction: The linear regression model, prior to PCA, had a mean squared error (MSE) of 6.297. Post-PCA, with only two principal components used, the MSE slightly increased, indicating a trade-off between model simplicity and accuracy.
+
 Detailed analysis and discussions are available within each script's comments and results sections.
 
 ## Contributing
