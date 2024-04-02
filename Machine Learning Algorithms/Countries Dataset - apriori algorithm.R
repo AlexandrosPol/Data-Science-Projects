@@ -1,47 +1,38 @@
-# Itemset Mining and Association Rules 
+# Association Rules Mining with Apriori Algorithm
 # Author: Alexandros Polyzoidis
-# Date: 1/4/2024
+# Date: April 1, 2024
 
-# Install the arules package if not already installed. The arules package is used for association rule learning and mining.
-install.packages("arules")
-# Load the arules library
+# This script conducts itemset mining and association rule analysis on country visitation data.
+# It applies the Apriori algorithm to uncover the relationships between different countries visited by travelers.
+
+# Ensure the arules package is installed and loaded
+if (!require(arules)) install.packages("arules")
 library(arules)
 
 # Check the current working directory
 getwd()
 
-# Read the transaction data from a CSV file.
+# Load the transactions from a CSV file.
 visits <- read.transactions("C:/Users/apoly/OneDrive/Documents/Master in Data Science and Machine Learning/DAMA51/DAMA51 - Assignments 2023-2024/DAMA51 Assignment 4/Assignment Docs/countries.csv",
                             format="basket",
                             header=FALSE,
                             sep=",",
                             rm.duplicates=FALSE)
 
-# Question (a)
-# Inspect the dataset and provide the information requested in the following table. (5 points)  
-
-# Answer (a)
+# Dataset inspection
+# Display a summary of the dataset to understand its composition
 # Summary provides a quick overview of the transaction dataset including the number of transactions, items, and item frequency.
 summary(visits)
-# Item labels can be retrieved to see what items (in this case, countries) are included in the dataset.
-itemLabels(visits)
+
+# Identify the most frequently visited countries
+frequent_countries <- itemFrequency(visits, type = "absolute")
+top_country <- names(which.max(frequent_countries))
+
 # Most frequently visited country : Greece
 # Number of different countries visited : 55
 # Item matrix density: 0.149
 # Maximum number of countries visited by a traveler: 25
 # Minimum number of countries visited by a traveler 3
-
-
-# Question (b)
-# Run the Apriori algorithm for a minimum support threshold of 0.2, a minimum confidence threshold of 0.8,
-# and a minimum of 2 items involved in a rule. 
-# Fill in the information in the following table. 
-# Then, inspect the rules identified and fill in the missing information 
-# denoted with a question mark in the next table. 
-# In case a rule does not exist, write “N/A” in place of the question mark.  
-
-
-# Answer (b)
 
 # Apply the Apriori algorithm to the visits transaction dataset with a minimum support threshold of 0.2, 
 # a minimum confidence threshold of 0.8 and a minimum of 2 items involved in a rule.
@@ -56,8 +47,6 @@ summary(rules)
 # Number of identified rules: 16
 # Number of rules with maximum number of items involved: 8
 # Number of rules with minimum number of items involved: 8
-
-
 
 # Sort the generated association rules in descending order by their support values.
 # Support is a measure of how frequently the itemset appears in the dataset.
@@ -83,16 +72,6 @@ inspection[14,]
 
 # {Cyprus} => {Greece}
 inspection[6,]
-
-
-# Question (c)
-# Run the Apriori algorithm for a minimum confidence threshold of 0.8, 
-# a minimum of 2 items involved in a rule, and for values of the minimum support
-# threshold ranging from 0.125 up to 0.25 with a step of 0.025.
-# How does the number of association rules change in relation to the minimum 
-# support threshold value? Explain. 
-
-# Answer (c)
 
 # Setting initial parameters for the Apriori algorithm, including the minimum confidence level
 # and the minimum number of items that must be involved in a rule. A sequence of support thresholds
@@ -131,13 +110,6 @@ plot(support_thresholds, num_rules_vector, type = "b", pch = 19, lwd = 2, col = 
 # but fail to appear as often at higher thresholds. 
 # The trend suggests only a few itemsets are common enough to form rules when stricter support criteria are applied.
 
-# Question (d)
-# Identify all countries that are included in the consequent in the rules where 
-# Cyprus is the antecedent (minimum support threshold of 0.2, a minimum confidence threshold of 0.8,
-# and a minimum of 2 items involved in a rule)
-
-# Answer (d)
-
 # Run the Apriori algorithm to find rules with Cyprus as the antecedent
 # We're interested in rules where Cyprus leads to the purchase of other items (countries in this case).
 Cyprus.lhs <- apriori(data = visits,
@@ -150,14 +122,6 @@ inspect(Cyprus.lhs)
 
 # Thus, Italy and Greece are the consequents in the rules where Cyprus is the antecedent. 
 
-
-# Question (e)
-# How can the association rule '{Cyprus} => {Greece}' 
-# with a high confidence level be interpreted in the context of traveler patterns,
-# and what implications does this rule have for understanding 
-# cultural or geographical affinities between countries in the dataset? 
-
-# Answer (e)
 
 # Interpretation in Traveler Patterns:
 # The rule implies that when travelers visit Cyprus, there is a high likelihood (confidence = 1) that they will also visit Greece.
