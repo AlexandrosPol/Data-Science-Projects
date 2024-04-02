@@ -2,28 +2,33 @@
 # Author: Alexandros Polyzoidis
 # Date: 1/4/2024
 
-# Answer (a)
+# Overview:
+# This script demonstrates feature selection techniques and linear regression modeling 
+# to predict the age (rings) of abalones based on physical measurements.
 
 # Install and load necessary packages
-install.packages("AppliedPredictiveModeling")
-install.packages("Metrics")
+if (!require("AppliedPredictiveModeling")) install.packages("AppliedPredictiveModeling")
+if (!require("caret")) install.packages("caret")
+if (!require("Metrics")) install.packages("Metrics")
 library(AppliedPredictiveModeling)
 library(caret)
 library(Metrics)
 
-# Load the abalone dataset
-data(abalone)
+# Data Preparation
+# Load the abalone dataset from the AppliedPredictiveModeling package
+data("abalone", package = "AppliedPredictiveModeling")
 
-# Exclude the 'Type' and 'Rings' variables and store the dataframe in 'df_data'
-df_data <- abalone[ ,-c(1,9)]
-head(df_data)
+# Exclude non-predictive variables: 'Type' (categorical) and 'Rings' (target)
+predictors <- abalone[ ,-c(1,9)]
+head(predictors)
 
 # Keep the 'Rings' variable as the response variable 'y'
 y <- abalone$Rings
 head(y)
 
+# Feature Importance Analysis
 # Rank the variables of the “df_data” data frame in relation to “y” (the age) and store the results
-ranking <- filterVarImp(x = df_data, y)
+ranking <- filterVarImp(x = predictors, y = target)
 ranking
 
 # Sort the variables by decreasing importance
@@ -34,7 +39,6 @@ ranked_vars$varNames
 
 # Display the rounded overall importance scores
 round(ranked_vars$Overall, 3)
-
 
 # Answer (b)
 # (1) Construct a data frame that contains the 2 top-ranked variables from the previous section
