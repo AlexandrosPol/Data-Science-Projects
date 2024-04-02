@@ -25,26 +25,28 @@ install.packages(c("caret", "ggplot2", "cluster", "arules"))
 Explain how to run each script and what inputs are needed.
 
 ## Projects
+## Projects
 ### Soil Data Clustering
-Brief description of the project and [link to script](Machine%20Learning%20Algorithms/Abalone%20Dataset%20-%20linear%20regression%2Bpca.R).
+This project applies k-means clustering to soil data from Northern Greece to identify patterns and inform better agricultural practices. [View the script](Machine%20Learning%20Algorithms/Soil%20Dataset%20-%20k%20means%20clustering.R).
 
 ### Market Basket Analysis
-Brief description of the project and [link to script](Machine%20Learning%20Algorithms/Countries%20Dataset%20-%20apriori%20algorithm.R).
+Using the apriori algorithm, this analysis uncovers association rules within a dataset of countries to understand global patterns and trends. [View the script](Machine%20Learning%20Algorithms/Countries%20Dataset%20-%20apriori%20algorithm.R).
 
 ### Abalone Age Prediction
-Brief description of the project and [link to script](Machine%20Learning%20Algorithms/Soil%20Dataset%20-%20k%20means%20clustering.R).
+This project utilizes linear regression and PCA to predict the age of abalones from physical measurements. [View the script](Machine%20Learning%20Algorithms/Abalone%20Dataset%20-%20linear%20regression%2Bpca.R).
 
 ## Results
-Summarize the main findings from each project or link to a more detailed results section.
+The clustering project revealed three distinct soil types, each with unique characteristics. 
+The market basket analysis highlighted key associations that can predict various country metrics. 
+The abalone age prediction model achieved a mean squared error of x.xx, indicating a certain level of accuracy.
+
+For more detailed findings, please refer to the individual scripts which contain comprehensive comments and results.
 
 ## Contributing
-State if you are accepting contributions and what the process for contributing is.
+Contributions to this repository are welcome! Please feel free to fork the project, make your proposed changes, and submit a pull request for review.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
+This project is open-sourced under the MIT License, which permits reuse with proper credit. For more information, please see the [LICENSE.md](LICENSE) file.
 
 ## Contact
-Your contact information for questions or collaboration offers.
-
-## Acknowledgments
-Thanks to any contributors, data providers, or third-party resources you used.
+For questions or potential collaborations on these projects, please reach out via [email](mailto:apolyzoidis@hotmail.com).
