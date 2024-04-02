@@ -27,10 +27,10 @@ Explain how to run each script and what inputs are needed.
 Brief description of the project and [link to script](Machine%20Learning%20Algorithms/Abalone%20Dataset%20-%20linear%20regression%2Bpca.R).
 
 ### Market Basket Analysis
-Brief description of the project and [link to script](/Countries%20Dataset%20-%20apriori%20algorithm.R).
+Brief description of the project and [link to script](Machine%20Learning%20Algorithms/Countries%20Dataset%20-%20apriori%20algorithm.R).
 
 ### Abalone Age Prediction
-Brief description of the project and [link to script](/Abalone%20Dataset%20-%20linear%20regression%2Bpca.R).
+Brief description of the project and [link to script](Machine%20Learning%20Algorithms/Soil%20Dataset%20-%20k%20means%20clustering.R).
 
 ## Results
 Summarize the main findings from each project or link to a more detailed results section.
