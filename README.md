@@ -38,7 +38,7 @@ This project utilizes linear regression and PCA to predict the age of abalones f
 ## Results
 The clustering project revealed three distinct soil types, each with unique characteristics. 
 The market basket analysis highlighted key associations that can predict various country metrics. 
-The abalone age prediction model achieved a mean squared error of x.xx, indicating a certain level of accuracy.
+The abalone age prediction model achieved a mean squared error of 6.297, indicating a certain level of accuracy.
 
 For more detailed findings, please refer to the individual scripts which contain comprehensive comments and results.
 
