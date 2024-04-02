@@ -24,7 +24,7 @@ Explain how to run each script and what inputs are needed.
 
 ## Projects
 ### Soil Data Clustering
-Brief description of the project and [link to script](/Soil%20Dataset%20-%20k%20means%20clustering.R).
+Brief description of the project and [link to script](Machine%20Learning%20Algorithms/Abalone%20Dataset%20-%20linear%20regression%2Bpca.R).
 
 ### Market Basket Analysis
 Brief description of the project and [link to script](/Countries%20Dataset%20-%20apriori%20algorithm.R).
