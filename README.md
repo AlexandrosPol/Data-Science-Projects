@@ -23,18 +23,17 @@ Before running the scripts, ensure that R and RStudio are installed on your syst
 install.packages(c("caret", "ggplot2", "cluster", "arules", "AppliedPredictiveModeling", "Metrics"))
 
 ## Running the Scripts
-Explain how to run each script and what inputs are needed.
+Each script can be executed within RStudio. Set the working directory to the location of the data files or update the file paths in the scripts accordingly.
 
-## Projects
 ## Projects
 ### Soil Data Clustering
 This project applies k-means clustering to soil data from Northern Greece to identify patterns and inform better agricultural practices. [View the script](Machine%20Learning%20Algorithms/Soil%20Dataset%20-%20k%20means%20clustering.R).
 
 ### Market Basket Analysis
-Using the apriori algorithm, this analysis uncovers association rules within a dataset of countries to understand global patterns and trends. [View the script](Machine%20Learning%20Algorithms/Countries%20Dataset%20-%20apriori%20algorithm.R).
+This project applies the apriori algorithm to discover patterns and trends in country visit data, revealing insights into traveler behaviors and country associations. [View the script](Machine%20Learning%20Algorithms/Countries%20Dataset%20-%20apriori%20algorithm.R).
 
 ### Abalone Age Prediction
-This project utilizes linear regression and PCA to predict the age of abalones from physical measurements. [View the script](Machine%20Learning%20Algorithms/Abalone%20Dataset%20-%20linear%20regression%2Bpca.R).
+Using regression analysis and principal component analysis (PCA), this project aims to predict the age of abalones from their physical measurements, highlighting the impact of dimensionality reduction on predictive accuracy.  [View the script](Machine%20Learning%20Algorithms/Abalone%20Dataset%20-%20linear%20regression%2Bpca.R).
 
 ## Results
 The clustering project revealed three distinct soil types, each with unique characteristics. 
