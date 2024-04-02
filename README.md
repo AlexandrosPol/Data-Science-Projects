@@ -50,3 +50,6 @@ This project is open-sourced under the MIT License, which permits reuse with pro
 
 ## Contact
 For questions or potential collaborations on these projects, please reach out via [email](mailto:apolyzoidis@hotmail.com).
+
+## Acknowledgments
+Special thanks to the data providers.
