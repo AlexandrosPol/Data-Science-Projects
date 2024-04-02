@@ -17,9 +17,9 @@ This repository showcases my work on various data science projects, utilizing R 
 - [Acknowledgments](#acknowledgments)
 
 ## Installation
-Ensure R and RStudio are installed. Most projects require the following R packages: `caret`, `ggplot2`, `cluster`, `arules`. Install them using:
+Before running the scripts, ensure that R and RStudio are installed on your system. The scripts rely on several R packages, which can be installed using the following command in the R console:
 `R`
-install.packages(c("caret", "ggplot2", "cluster", "arules"))
+install.packages(c("caret", "ggplot2", "cluster", "arules", "AppliedPredictiveModeling", "Metrics"))
 
 ## Running the Scripts
 Explain how to run each script and what inputs are needed.
