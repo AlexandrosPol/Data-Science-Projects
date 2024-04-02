@@ -119,7 +119,6 @@ Cyprus.lhs <- apriori(data = visits,
 # Inspect the rules to display those with Cyprus on the LHS.
 # The inspect function will print the details of the rules meeting the specified criteria.
 inspect(Cyprus.lhs)
-
 # Thus, Italy and Greece are the consequents in the rules where Cyprus is the antecedent. 
 
 
