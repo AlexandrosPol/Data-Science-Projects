@@ -36,20 +36,19 @@ This project applies the apriori algorithm to discover patterns and trends in co
 Using regression analysis and principal component analysis (PCA), this project aims to predict the age of abalones from their physical measurements, highlighting the impact of dimensionality reduction on predictive accuracy.  [View the script](Machine%20Learning%20Algorithms/Abalone%20Dataset%20-%20linear%20regression%2Bpca.R).
 
 ## Results
-The clustering project revealed three distinct soil types, each with unique characteristics. 
-The market basket analysis highlighted key associations that can predict various country metrics. 
-The abalone age prediction model achieved a mean squared error of 6.297, indicating a certain level of accuracy.
-
-For more detailed findings, please refer to the individual scripts which contain comprehensive comments and results.
+Soil Data Clustering: Identified three distinct soil types, providing a basis for customized agricultural approaches.
+Market Basket Analysis: Revealed strong association rules that provide insights into the interconnectedness of country visits.
+Abalone Age Prediction: The linear regression model, prior to PCA, had a mean squared error (MSE) of 6.297. Post-PCA, with only two principal components used, the MSE slightly increased, indicating a trade-off between model simplicity and accuracy.
+Detailed analysis and discussions are available within each script's comments and results sections.
 
 ## Contributing
-Contributions to this repository are welcome! Please feel free to fork the project, make your proposed changes, and submit a pull request for review.
+I welcome contributions to this repository. Please fork the project, make your changes, and submit a pull request for review. Collaboration is key to advancing data science!
 
 ## License
-This project is open-sourced under the MIT License, which permits reuse with proper credit. For more information, please see the [LICENSE.md](LICENSE) file.
+This repository and its contents are provided under the MIT License. This permissive license allows for sharing and adaptation with appropriate credit given. See the LICENSE.md for full terms.
 
 ## Contact
-For questions or potential collaborations on these projects, please reach out via [email](mailto:apolyzoidis@hotmail.com).
+Feel free to reach out to me for questions, discussions, or collaboration proposals via [email](mailto:apolyzoidis@hotmail.com).
 
 ## Acknowledgments
 Special thanks to the data providers.
