@@ -9,15 +9,15 @@
 if (!require(arules)) install.packages("arules")
 library(arules)
 
-# Check the current working directory
-getwd()
+# Set the correct path to the dataset
+dataset_path <- "path/to/countries.csv" # Replace with the correct path
 
-# Load the transactions from a CSV file.
-visits <- read.transactions("C:/Users/apoly/OneDrive/Documents/Master in Data Science and Machine Learning/DAMA51/DAMA51 - Assignments 2023-2024/DAMA51 Assignment 4/Assignment Docs/countries.csv",
-                            format="basket",
+# Load the transactions from a CSV file
+visits <- read.transactions(dataset_path,
+                            format = "basket",
                             header=FALSE,
-                            sep=",",
-                            rm.duplicates=FALSE)
+                            sep = ",",
+                            rm.duplicates = FALSE)
 
 # Dataset inspection
 # Display a summary of the dataset to understand its composition
