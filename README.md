@@ -1,7 +1,7 @@
 # Data Science Projects
 
 ## Description
-This repository showcases my work on various data science projects, utilizing R for statistical analysis and machine learning. Each project tackles a unique problem, from predictive modeling to pattern recognition in complex datasets.
+This repository showcases my work on various data science projects, utilizing R and Python for statistical analysis and machine learning. Each project tackles a unique problem, from predictive modeling to pattern recognition in complex datasets.
 
 ## Table of Contents
 - [Installation](#installation)
