@@ -40,6 +40,10 @@ This project applies the apriori algorithm to discover patterns and trends in co
 ### Abalone Age Prediction
 Using regression analysis and principal component analysis (PCA), this project aims to predict the age of abalones from their physical measurements, highlighting the impact of dimensionality reduction on predictive accuracy.  [View the script](Machine%20Learning%20Algorithms/Abalone%20Dataset%20-%20linear%20regression%2Bpca.R).
 
+### Titanic Survival Prediction
+Analyzing the Titanic dataset to predict survival rates using machine learning in Python. The project demonstrates data cleaning, exploratory data analysis, and the application of classification algorithms.
+The objective of the model is to predict whether passengers on the Titanic would have survived, based on features like passenger class, sex, age, number of siblings/spouses, parents/children on board, fare, and port of embarkation. This model could help us understand the factors that contributed to the likelihood of survival during the Titanic disaster.
+
 ## Results
 Soil Data Clustering: Identified three distinct soil types, providing a basis for customized agricultural approaches.
 
