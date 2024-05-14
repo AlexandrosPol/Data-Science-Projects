@@ -17,10 +17,15 @@ This repository showcases my work on various data science projects, utilizing R 
 - [Acknowledgments](#acknowledgments)
 
 ## Installation
+For R projects:
 Before running the scripts, ensure that R and RStudio are installed on your system. The scripts rely on several R packages, which can be installed using the following command in the R console:
 `R`
 
 install.packages(c("caret", "ggplot2", "cluster", "arules", "AppliedPredictiveModeling", "Metrics"))
+
+For Python Project:
+
+packages used: numpy, pandas, matplotlib, seaborn, scikit-learn
 
 ## Running the Scripts
 Each script can be executed within RStudio. Set the working directory to the location of the data files or update the file paths in the scripts accordingly.
