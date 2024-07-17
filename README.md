@@ -32,7 +32,7 @@ Each script can be executed within RStudio. Set the working directory to the loc
 
 ## Projects
 ### Soil Data Clustering
-This project applies k-means clustering to soil data from Northern Greece to identify patterns and inform better agricultural practices. [View the script](Machine%20Learning%20Algorithms/Soil%20Dataset%20-%20k%20means%20clustering.R).
+This project applies k-means clustering to soil data from Northern Greece to identify patterns and inform better agricultural practices. [View the script](https://github.com/AlexandrosPol/Data-Science-Projects/blob/main/Soil%20Types%20Identification%20Analysis/Soil%20Dataset%20-%20k%20means%20clustering.R).
 
 
 ### Market Basket Analysis
