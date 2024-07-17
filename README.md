@@ -32,7 +32,8 @@ Each script can be executed within RStudio. Set the working directory to the loc
 
 ## Projects
 ### Soil Data Clustering
-This project applies k-means clustering to soil data from Northern Greece to identify patterns and inform better agricultural practices. [View the script](Machine%20Learning%20Algorithms/Soil%20Dataset%20-%20k%20means%20clustering.R).
+This project applies k-means clustering to soil data from Northern Greece to identify patterns and inform better agricultural practices. [View the script]([Machine%20Learning%20Algorithms/Soil%20Dataset%20-%20k%20means%20clustering.R](https://github.com/AlexandrosPol/Data-Science-Projects/blob/main/Abalone%20Age%20Prediction/Abalone%20Dataset%20-%20linear%20regression%2Bpca.R)).
+
 
 ### Market Basket Analysis
 This project applies the apriori algorithm to discover patterns and trends in country visit data, revealing insights into traveler behaviors and country associations. [View the script](Machine%20Learning%20Algorithms/Countries%20Dataset%20-%20apriori%20algorithm.R).
