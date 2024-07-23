@@ -11,6 +11,7 @@ This repository showcases my work on various data science projects, utilizing R 
   - [Market Basket Analysis](#market-basket-analysis)
   - [Abalone Age Prediction](#abalone-age-prediction)
   - [Titanic Survival Prediction](#titanic-survival-prediction)
+  - [CardsDeck Image Classification](#cards_deck-image_classification)
 - [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
@@ -29,12 +30,11 @@ For Python Project:
 packages used: numpy, pandas, matplotlib, seaborn, scikit-learn
 
 ## Running the Scripts
-Each script can be executed within RStudio. Set the working directory to the location of the data files or update the file paths in the scripts accordingly.
+Each script can be executed either within RStudio (for R projects) and using Jupyter Notebook or another IDE (for python projects).
 
 ## Projects
 ### Soil Data Clustering
 This project applies k-means clustering to soil data from Northern Greece to identify patterns and inform better agricultural practices. [View the script](https://github.com/AlexandrosPol/Data-Science-Projects/blob/main/Soil%20Types%20Identification%20Analysis/Soil%20Dataset%20-%20k%20means%20clustering.R).
-
 
 ### Market Basket Analysis
 This project applies the apriori algorithm to discover patterns and trends in country visit data, revealing insights into traveler behaviors and country associations. [View the script](https://github.com/AlexandrosPol/Data-Science-Projects/blob/main/Countries%20Visitation%20Analysis/Countries%20Dataset%20-%20apriori%20algorithm.R).
