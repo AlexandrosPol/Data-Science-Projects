@@ -10,6 +10,7 @@ This repository showcases my work on various data science projects, utilizing R 
   - [Soil Data Clustering](#soil-data-clustering)
   - [Market Basket Analysis](#market-basket-analysis)
   - [Abalone Age Prediction](#abalone-age-prediction)
+  - [Titanic Survival Prediction](#titanic-survival-prediction)
 - [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
