@@ -51,8 +51,11 @@ This project involves classifying images of playing cards into their respective 
 The project employs a convolutional neural network (CNN) implemented in PyTorch. The model is trained using a transfer learning approach with a pre-trained network from the timm library, specifically designed for image classification tasks.
 Key steps in the project include:
 Data Preprocessing: Images are resized, normalized, and augmented to improve the model's generalization capability.
+
 Model Training: A pre-trained model is fine-tuned on the cards dataset. Various hyperparameters such as learning rate, batch size, and number of epochs are optimized.
-Evaluation: The model's performance is evaluated using metrics such as accuracy, precision, recall, and F1-score. Confusion matrices are generated to analyze misclassifications.
+
+Evaluation: The model's performance is evaluated using accuracy metric.
+
 The project demonstrates the use of advanced deep learning techniques and transfer learning to tackle an image classification problem. [View the script](https://github.com/AlexandrosPol/Data-Science-Projects/blob/main/Card%20Deck%20-%20Image%20Classification%20with%20PyTorch/card-deck-image-classification-with-pytorch.ipynb)
 
 
