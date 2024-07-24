@@ -46,6 +46,16 @@ Using regression analysis and principal component analysis (PCA), this project a
 Analyzing the Titanic dataset to predict survival rates using machine learning in Python. The project demonstrates data cleaning, exploratory data analysis, and the application of classification algorithms.
 The objective of the model is to predict whether passengers on the Titanic would have survived, based on features like passenger class, sex, age, number of siblings/spouses, parents/children on board, fare, and port of embarkation. This model could help us understand the factors that contributed to the likelihood of survival during the Titanic disaster. [View the script](https://github.com/AlexandrosPol/Data-Science-Projects/blob/main/Titanic%20Survival%20Prediction/Titanic%20Survival%20Prediction.ipynb).
 
+### CardsDeck Image Classification
+This project involves classifying images of playing cards into their respective categories using deep learning. The dataset consists of images of playing cards, and the task is to correctly identify the rank and suit of each card.
+The project employs a convolutional neural network (CNN) implemented in PyTorch. The model is trained using a transfer learning approach with a pre-trained network from the timm library, specifically designed for image classification tasks.
+Key steps in the project include:
+Data Preprocessing: Images are resized, normalized, and augmented to improve the model's generalization capability.
+Model Training: A pre-trained model is fine-tuned on the cards dataset. Various hyperparameters such as learning rate, batch size, and number of epochs are optimized.
+Evaluation: The model's performance is evaluated using metrics such as accuracy, precision, recall, and F1-score. Confusion matrices are generated to analyze misclassifications.
+The project demonstrates the use of advanced deep learning techniques and transfer learning to tackle an image classification problem. [View the script](https://github.com/AlexandrosPol/Data-Science-Projects/blob/main/Card%20Deck%20-%20Image%20Classification%20with%20PyTorch/card-deck-image-classification-with-pytorch.ipynb)
+
+
 ## Results
 Soil Data Clustering: Identified three distinct soil types, providing a basis for customized agricultural approaches.
 
@@ -53,7 +63,11 @@ Market Basket Analysis: Revealed strong association rules that provide insights 
 
 Abalone Age Prediction: The linear regression model, prior to PCA, had a mean squared error (MSE) of 6.297. Post-PCA, with only two principal components used, the MSE slightly increased, indicating a trade-off between model simplicity and accuracy.
 
+Titanic Survival Prediction: The best-performing model achieved an accuracy of 81%, highlighting key factors affecting survival chances.
+
 Detailed analysis and discussions are available within each script's comments and results sections.
+
+CardsDeck Image Classification: Achieved an accuracy of 97% on the validation set, effectively classifying the rank and suit of playing cards.
 
 ## Contributing
 I welcome contributions to this repository. Please fork the project, make your changes, and submit a pull request for review. Collaboration is key to advancing data science!
