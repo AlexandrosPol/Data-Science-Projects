@@ -50,6 +50,7 @@ The objective of the model is to predict whether passengers on the Titanic would
 This project involves classifying images of playing cards into their respective categories using deep learning. The dataset consists of images of playing cards, and the task is to correctly identify the rank and suit of each card.
 The project employs a convolutional neural network (CNN) implemented in PyTorch. The model is trained using a transfer learning approach with a pre-trained network from the timm library, specifically designed for image classification tasks.
 Key steps in the project include:
+
 Data Preprocessing: Images are resized, normalized, and augmented to improve the model's generalization capability.
 
 Model Training: A pre-trained model is fine-tuned on the cards dataset. Various hyperparameters such as learning rate, batch size, and number of epochs are optimized.
