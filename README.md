@@ -11,7 +11,7 @@ This repository showcases my work on various data science projects, utilizing R 
   - [Market Basket Analysis](#market-basket-analysis)
   - [Abalone Age Prediction](#abalone-age-prediction)
   - [Titanic Survival Prediction](#titanic-survival-prediction)
-  - [CardsDeck Image Classification](#cards_deck-image_classification)
+  - [CardsDeck Image Classification](#cardsdeck-image_classification)
 - [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
