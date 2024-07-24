@@ -25,9 +25,9 @@ Before running the scripts, ensure that R and RStudio are installed on your syst
 
 install.packages(c("caret", "ggplot2", "cluster", "arules", "AppliedPredictiveModeling", "Metrics"))
 
-For Python Project:
+For Python Projects:
 
-packages used: numpy, pandas, matplotlib, seaborn, scikit-learn
+packages used: numpy, pandas, matplotlib, seaborn, scikit-learn, torch, torchvision, timm, tqdm
 
 ## Running the Scripts
 Each script can be executed either within RStudio (for R projects) and using Jupyter Notebook or another IDE (for python projects).
