@@ -59,6 +59,10 @@ Evaluation: The model's performance is evaluated using accuracy metric.
 
 The project demonstrates the use of advanced deep learning techniques and transfer learning to tackle an image classification problem. [View the script](https://github.com/AlexandrosPol/Data-Science-Projects/blob/main/Card%20Deck%20-%20Image%20Classification%20with%20PyTorch/card-deck-image-classification-with-pytorch.ipynb)
 
+### Credit Card Fraud Detection
+This project involves building a deep learning neural network to detect fraudulent transactions in credit card data. The dataset is highly imbalanced, so techniques like SMOTE are used to improve detection. The model achieves high accuracy and precision for both fraud and non-fraud cases.
+[View the project](./Credit-Card-Fraud-Detection/README.md)
+
 
 ## Results
 Soil Data Clustering: Identified three distinct soil types, providing a basis for customized agricultural approaches.
