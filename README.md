@@ -12,6 +12,8 @@ This repository showcases my work on various data science projects, utilizing R 
   - [Abalone Age Prediction](#abalone-age-prediction)
   - [Titanic Survival Prediction](#titanic-survival-prediction)
   - [CardsDeck Image Classification](#cardsdeck-image-classification)
+  - [Credit Card Fraud Detection](#credit-card-fraud-detection)
+  - [Digit Recognizer LSTM Model](#digit-recognizer-LSTMmodel)
 - [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
