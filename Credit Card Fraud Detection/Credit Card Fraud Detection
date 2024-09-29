@@ -1,0 +1,7 @@
+Data-Science-Projects/
+├── Credit-Card-Fraud-Detection/
+    ├── README.md
+    ├── notebooks/
+    ├── src/
+    ├── images/  # ROC curve, Precision-Recall curve, Accuracy, Loss plots
+    └── fraud_detection.py
