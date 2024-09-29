@@ -63,7 +63,7 @@ The project demonstrates the use of advanced deep learning techniques and transf
 
 ### Credit Card Fraud Detection
 This project involves building a deep learning neural network to detect fraudulent transactions in credit card data. The dataset is highly imbalanced, so techniques like SMOTE are used to improve detection. The model achieves high accuracy and precision for both fraud and non-fraud cases.
-[View the project](./Credit-Card-Fraud-Detection/README.md)
+[View the project](https://github.com/AlexandrosPol/Data-Science-Projects/tree/main/Credit%20Card%20Fraud%20Detection)
 
 
 ## Results
