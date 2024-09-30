@@ -15,7 +15,7 @@ This project uses a deep learning neural network in PyTorch to detect fraudulent
 - **Metrics**: Achieved an AUC-ROC score of 1.00, test accuracy of 96.69%, and a balanced precision-recall performance.
 
 ## Results
-- **Test Accuracy**: 96.69%
+- **Test Accuracy**: 99.95%
 - **Precision, Recall, F1-Score**: Excellent recall and precision for both classes.
 - **AUC-ROC**: Achieved a perfect AUC-ROC score of 1.00, indicating the model’s strong performance in distinguishing fraud from non-fraud cases.
 
