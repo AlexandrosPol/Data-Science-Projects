@@ -12,7 +12,7 @@ This project uses a deep learning neural network in PyTorch to detect fraudulent
 ## Key Features of the Project
 - **SMOTE** for handling class imbalance.
 - **Neural Network**: A 5-layer deep learning model built using PyTorch.
-- **Metrics**: Achieved an AUC-ROC score of 1.00, test accuracy of 96.69%, and a balanced precision-recall performance.
+- **Metrics**: Achieved an AUC-ROC score of 1.00, test accuracy of 99.95%, and a balanced precision-recall performance.
 
 ## Results
 - **Test Accuracy**: 99.95%
