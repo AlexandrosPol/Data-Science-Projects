@@ -21,7 +21,7 @@ A dataset of transactional country visitations, where each row represents a set 
   - *Cyprus* => *Greece*: High likelihood of visiting Greece after Cyprus.
   - Rules with high support indicate common travel patterns, suggesting actionable insights.
 - **Parameter Tuning Visualization**:
-  - ![Support vs. Number of Rules Plot](path_to_image.png)
+![Support vs. Number of Rules Plot](images/Support%20vs.%20Number%20of%20Rules%20Plot.png)
 
 ### Business Implications
 - **Tourism Strategy**: Joint tourism campaigns for Cyprus and Greece.
