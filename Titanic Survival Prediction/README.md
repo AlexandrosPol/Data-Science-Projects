@@ -30,10 +30,11 @@ The Titanic disaster is one of the most infamous shipwrecks in history. This pro
 ### Step 4: Exploratory Data Analysis (EDA)
 - Analyzed distributions of various features to understand patterns and relationships.
 
-#### Visualizations (To be added when available)
-- ![Survival Distribution](images/survival_distribution_placeholder.png)
-- ![Classes Distribution](images/classes_distribution_placeholder.png)
-- ![Correlation Matrix](images/correlation_matrix_placeholder.png)
+#### Visualizations
+- **Survival Distribution**: ![Survival Distribution](images/eda_feature_counts.png)
+- **Classes Distribution**: ![Classes Distribution](images/eda_feature_counts.png)
+- **Correlation Matrix**: ![Correlation Matrix](images/correlation_matrix.png)
+- **Feature Relationships**: ![Feature Relationships](images/eda_relationships.png)
 
 ### Step 5: Feature Engineering
 - **Label Encoding**: Converted categorical features to numerical values for model compatibility.
@@ -75,4 +76,4 @@ This analysis highlights the predictive power of machine learning for historical
 
 ---
 
-> **Note**: Visualizations will be added when available. For now, please refer to the [Jupyter Notebook](link-to-notebook) for a complete set of visualizations and detailed code.
+> **Note**: Visualizations are provided based on EDA and relationships analysis. For a complete set of code and additional details, please refer to the [Jupyter Notebook](link-to-notebook).
