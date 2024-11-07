@@ -75,4 +75,4 @@ This analysis highlights the predictive power of machine learning for historical
 
 ---
 
-> **Note**: Visualizations are provided based on EDA and relationships analysis. For a complete set of code and additional details, please refer to the [Jupyter Notebook][(https://github.com/AlexandrosPol/Data-Science-Projects/blob/main/Titanic%20Survival%20Prediction/Titanic%20Survival%20Prediction.ipynb))].
+> **Note**: Visualizations are provided based on EDA and relationships analysis. For a complete set of code and additional details, please refer to the [Jupyter Notebook](https://github.com/AlexandrosPol/Data-Science-Projects/blob/main/Titanic%20Survival%20Prediction/Titanic%20Survival%20Prediction.ipynb).
