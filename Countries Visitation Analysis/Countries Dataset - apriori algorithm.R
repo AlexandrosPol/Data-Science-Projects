@@ -1,6 +1,5 @@
 # Association Rules Mining with Apriori Algorithm
 # Author: Alexandros Polyzoidis
-# Date: April 1, 2024
 
 # This script conducts itemset mining and association rule analysis on country visitation data.
 # It applies the Apriori algorithm to uncover the relationships between different countries visited by travelers.
