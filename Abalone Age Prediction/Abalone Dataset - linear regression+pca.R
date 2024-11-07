@@ -1,6 +1,5 @@
 # Feature Selection and linear regression
 # Author: Alexandros Polyzoidis
-# Date: 1/4/2024
 
 # Overview:
 # This script demonstrates feature selection techniques and linear regression modeling 
