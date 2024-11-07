@@ -1,57 +1,78 @@
-# Titanic Survival Prediction Project
+# Project: Titanic Survival Prediction
 
 ## Objective
-- Predict whether passengers on the Titanic would have survived, based on features like class, age, sex, family aboard, and fare.
-- Provide insights into social and historical patterns during the Titanic disaster.
+- Predict the survival of passengers on the Titanic based on features such as passenger class, sex, age, number of siblings/spouses, parents/children on board, fare, and port of embarkation.
+- Identify factors that influenced survival rates to provide insights into societal dynamics and emergency responses.
 
 ## Dataset
-- **Source**: [Kaggle Titanic Dataset](https://www.kaggle.com/competitions/titanic/data)
-- **Features**: Passenger class, age, sex, family aboard, ticket fare, port of embarkation.
+- Dataset: [Titanic dataset on Kaggle](https://www.kaggle.com/c/titanic/data)
+- The dataset contains various features that may influence the survival rates of passengers.
 
-## Tools
-- **Language**: Python
-- **Libraries**: pandas, numpy, scikit-learn, matplotlib, seaborn
+## Tools Needed
+- **Programming Language**: Python
+- **Libraries**: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`
 
-## Process
-1. ### Define the Problem
-   - Set goals for predictive modeling based on Titanic survival data.
+## Project Steps
 
-2. ### Data Collection and Understanding
-   - Loaded the dataset into a pandas DataFrame and explored each feature.
+### Step 1: Define the Problem
+The Titanic disaster is one of the most infamous shipwrecks in history. This project aims to analyze which types of people were likely to survive using machine learning to predict survival based on various characteristics.
 
-3. ### Data Wrangling and Preprocessing
-   - Dropped irrelevant columns (`PassengerId`, `Name`, `Ticket`).
-   - Handled missing values in `Age` and `Embarked` columns.
-   - Converted categorical variables (`Sex`, `Embarked`) to numeric.
+### Step 2: Data Collection
+- Loaded the Titanic dataset as a pandas DataFrame for analysis and feature engineering.
 
-4. ### Exploratory Data Analysis (EDA)
-   - Visualized survival distributions across features (e.g., sex, class, family size).
-   - Gained insights on factors influencing survival.
+### Step 3: Data Wrangling and Preprocessing
+- **Dropping Irrelevant Features**: Removed columns unlikely to affect survival or with excessive missing data.
+- **Handling Missing Values**: Imputed missing values for `Age` and `Embarked` features.
+- **Type Casting**: Converted data types for consistency.
+- **Encoding Categorical Features**: Converted `Sex` and `Embarked` into numerical categories.
+- **Age Binning**: Grouped `Age` into categories for better insights.
 
-5. ### Feature Engineering
-   - Binned ages into categorical groups.
-   - Encoded categorical data.
-   - Analyzed correlations with a heatmap.
+### Step 4: Exploratory Data Analysis (EDA)
+- Analyzed distributions of various features to understand patterns and relationships.
 
-6. ### Model Selection and Training
-   - Compared algorithms: Logistic Regression, Decision Tree, SVM, and K-Nearest Neighbor.
-   - Used GridSearch for Decision Tree hyperparameter tuning.
+#### Visualizations (To be added when available)
+- ![Survival Distribution](images/survival_distribution_placeholder.png)
+- ![Classes Distribution](images/classes_distribution_placeholder.png)
+- ![Correlation Matrix](images/correlation_matrix_placeholder.png)
 
-7. ### Model Evaluation
-   - **Best Model**: Decision Tree with highest validation accuracy (81%).
-   - Evaluated overfitting risk and tested model on a separate test set.
+### Step 5: Feature Engineering
+- **Label Encoding**: Converted categorical features to numerical values for model compatibility.
+- **Scaling**: Applied feature scaling for uniform range across features.
 
-## Results and Insights
-- **Key Factors for Survival**:
-  - Higher survival rates for females, younger passengers, and higher-class ticket holders.
-  - Small family sizes were slightly advantageous for survival.
-- **Model Insights**:
-  - The Decision Tree was selected for interpretability and a balance between accuracy and complexity.
+### Step 6: Model Selection and Training
+- **Models Evaluated**:
+  - Logistic Regression
+  - Decision Tree Classifier
+  - Support Vector Machine (SVM)
+  - K-Nearest Neighbors (KNN)
+- **Hyperparameter Tuning**: Used GridSearchCV for optimal parameter selection, particularly for the Decision Tree model.
 
-## Conclusion
-- Historical insights into socio-economic factors and biases affecting survival.
-- Implications for safety protocols and potential future research in social demographics during disasters.
+### Step 7: Model Evaluation
+- Compared model accuracies on the validation set:
+  - Logistic Regression: 80%
+  - Decision Tree: 81% (Best-performing model)
+  - SVM: 80%
+  - KNN: 78%
+
+### Step 8: Testing and Final Model Selection
+- Decision Tree Classifier selected as the final model due to its balance of interpretability and performance.
+
+### Step 9: Prediction and Feature Importance
+- Predicted survival outcomes on the test set and analyzed feature importance based on the Decision Tree model.
+
+### Conclusion
+After thorough analysis and modeling, the Decision Tree Classifier was chosen for its ability to capture non-linear relationships between features. Key findings from this project include:
+- **Socio-economic Status**: Higher class passengers had higher survival chances.
+- **Gender Bias**: Females had a higher survival rate due to the "women and children first" policy.
+- **Family Size**: Smaller family groups had higher survival rates.
+
+This analysis highlights the predictive power of machine learning for historical data and offers potential insights into emergency response protocols.
+
+### Future Work
+- Test other advanced models like Random Forest or Gradient Boosting.
+- Fine-tune hyperparameters further for enhanced accuracy.
+- Explore additional sources of data to enrich the analysis.
 
 ---
 
-This project demonstrates the application of machine learning to a historically significant dataset, providing valuable insights and a case study in predictive modeling.
+> **Note**: Visualizations will be added when available. For now, please refer to the [Jupyter Notebook](link-to-notebook) for a complete set of visualizations and detailed code.
