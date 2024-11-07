@@ -1,4 +1,4 @@
-## Association Rules Mining with Apriori Algorithm
+## Country Visitation Pattern Mining with Apriori Algorithm
 
 ### Objective
 To explore frequent country visitation patterns using association rule mining. By uncovering relationships between commonly visited countries, this analysis offers insights for potential joint tourism promotion strategies.
