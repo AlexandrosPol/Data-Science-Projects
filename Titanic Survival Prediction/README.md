@@ -31,8 +31,7 @@ The Titanic disaster is one of the most infamous shipwrecks in history. This pro
 - Analyzed distributions of various features to understand patterns and relationships.
 
 #### Visualizations
-- **Survival Distribution**: ![Survival Distribution](images/eda_feature_counts.png)
-- **Classes Distribution**: ![Classes Distribution](images/eda_feature_counts.png)
+- **EDA Overview**: ![EDA Overview](images/eda_feature_counts.png)
 - **Correlation Matrix**: ![Correlation Matrix](images/correlation_matrix.png)
 - **Feature Relationships**: ![Feature Relationships](images/eda_relationships.png)
 
