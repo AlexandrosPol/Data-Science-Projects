@@ -12,14 +12,14 @@
   - **Feature Reduction**: Tested clustering on a simplified dataset with key soil properties (e.g., Sand %, Clay %, Silt %, pH) to improve clustering coherence.
 - **Result**: Identified three main soil clusters with clearer separation in the simplified dataset, providing actionable insights for targeted soil management.
 
-Elbow Plot
-![Elbow Plot](images/Elbow Method for Choosing Optimal k.png)
+#### Elbow Plot
+![Elbow Plot](images/Elbow%20Method%20for%20Choosing%20Optimal%20k.png)
 
-Silhouette Score Plot
-![Silhouette Plot](images/Average Silhouette Scores for Different k.png)
+#### Silhouette Score Plot
+![Silhouette Plot](images/Average%20Silhouette%20Scores%20for%20Different%20k.png)
 
-Cluster Plot
-![Cluster Plot](images/Cluster plot.png)
+#### Cluster Plot
+![Cluster Plot](images/Cluster%20plot.png)
 
-Cluster Plot with Simplified Dataset
-![Cluster Plot Simplified](images/Clustering with Simplified Dataset.png)
+#### Cluster Plot with Simplified Dataset
+![Cluster Plot Simplified](images/Clustering%20with%20Simplified%20Dataset.png)
