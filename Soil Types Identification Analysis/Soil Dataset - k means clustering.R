@@ -1,6 +1,5 @@
 # Soil Data Clustering Analysis
 # Author: Alexandros Polyzoidis
-# Date: 1/4/2024
 # This script performs k-means clustering analysis on the 'SOIL DATA GR' dataset to identify different soil types based on their characteristics.
 # The analysis includes data preparation, determining the optimal number of clusters, and visualization of the results.
 
