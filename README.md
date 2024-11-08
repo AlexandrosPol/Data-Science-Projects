@@ -65,6 +65,9 @@ The project demonstrates the use of advanced deep learning techniques and transf
 This project involves building a deep learning neural network to detect fraudulent transactions in credit card data. The dataset is highly imbalanced, so techniques like SMOTE are used to improve detection. The model achieves high accuracy and precision for both fraud and non-fraud cases.
 [View the project](https://github.com/AlexandrosPol/Data-Science-Projects/tree/main/Credit%20Card%20Fraud%20Detection)
 
+### Digit Recognizer-LSTM Model
+This project involves a sequence model built with LSTM to classify handwritten digits from the MNIST dataset.
+[View the project](https://github.com/AlexandrosPol/Data-Science-Projects/tree/main/Digit%20Recognizer%20-%20LSTM%20Model)
 
 ## Results
 Soil Data Clustering: Identified three distinct soil types, providing a basis for customized agricultural approaches.
