@@ -1,34 +1,98 @@
-Petra Reviews AI 🌟
-Sentiment Analysis for Enhancing Tourism Insights
+# Petra Reviews Sentiment Analysis
 
-Overview
-This project is an end-to-end AI application that uses sentiment analysis to classify visitor reviews of Petra, a UNESCO World Heritage Site. By leveraging advanced machine learning models and state-of-the-art technologies, this system delivers actionable insights to enhance tourism experiences and support informed decision-making.
+**An end-to-end AI application that leverages sentiment analysis on visitor reviews of Petra, a UNESCO World Heritage Site. The project aims to enhance tourism experiences and support informed decision-making for stakeholders.**
 
-Key Features
-Sentiment Classification: Classifies visitor reviews into positive, neutral, or negative categories with high accuracy.
-Model Optimization: Tested and fine-tuned multiple Hugging Face Transformers (e.g., BERT, RoBERTa, DistilBERT) to achieve ~90% accuracy.
-Interactive Web App: User-friendly interface for analyzing feedback and visualizing sentiment trends.
-Containerized Deployment: Seamless deployment using Docker for reproducibility and portability.
-Tech Stack
-Frontend: HTML, CSS, JavaScript, Chart.js, Font Awesome.
-Backend: FastAPI, Jinja2, Pydantic.
-Machine Learning:
-Framework: PyTorch.
-Transformers: BERT, DistilBERT, RoBERTa, and Twitter-RoBERTa for sentiment analysis.
-Containerization: Docker for packaging and deploying the entire application.
-Deployment: Hosted on Heroku for real-time access.
-How It Works
-Data Collection:
-Visitor reviews sourced from public platforms like Google Maps and TripAdvisor.
-Preprocessed text data for sentiment classification.
-Model Training:
-Built on PyTorch and tested multiple Hugging Face Transformers for optimal results.
-Achieved ~90% accuracy on the test dataset through extensive fine-tuning.
-API Development:
-Created using FastAPI for serving real-time predictions.
-Frontend Integration:
-Visualizations and sentiment analysis results presented via interactive charts and graphs.
-Docker Deployment:
-Application containerized using Docker for ease of deployment across environments.
-Hosting:
-Deployed on Heroku with static assets (CSS, JS, images) and templates.
+---
+
+## 🚀 Key Features
+
+- **Sentiment Classification**: Classifies visitor feedback into positive, neutral, or negative categories with ~90% accuracy.
+- **Hugging Face Transformers**: Tested multiple transformer-based architectures to achieve the best possible performance.
+- **User-Friendly Interface**: Interactive web interface for sentiment analysis and trend visualization.
+- **Containerized Deployment**: Fully Dockerized for streamlined deployment and scalability.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript, Chart.js, Font Awesome
+- **Backend**: FastAPI, Jinja2, PyTorch, Transformers (Hugging Face), Pydantic
+- **Infrastructure**: Docker, Heroku (for deployment)
+- **Tools**: Python, NumPy, Matplotlib
+
+---
+
+## 📊 Model Performance
+
+- **Accuracy**: Achieved close to 90% on the test set.
+- **Transformer Models Tested**:
+  - BERT
+  - DistilBERT
+  - RoBERTa
+  - Twitter-RoBERTa (Optimal model)
+- **Training Framework**: PyTorch
+
+---
+
+## 🖥️ Deployment
+
+The project is deployed using Docker and hosted on Heroku. You can visit the live demo [here](https://www.petrareviewsai.com).
+
+# 📝 Project Description
+
+This project utilizes advanced **sentiment analysis** techniques to classify visitor feedback into three categories: **positive**, **neutral**, or **negative**. By analyzing these insights, tourism stakeholders can make data-driven decisions to improve visitor experiences and better promote Petra as a destination.
+
+---
+
+## **Key Objectives**
+
+- Enhance tourism experiences using sentiment data.
+- Provide actionable insights for decision-makers in the tourism sector.
+
+---
+
+## 📷 **Screenshots**
+
+### **Main Interface:**
+![Main Interface](assets/main_interface.png)
+
+### **Sentiment Results:**
+![Sentiment Results](assets/sentiment_results.png)
+
+---
+
+## 🤝 **Acknowledgments**
+
+- **Data Source**: Google Maps and TripAdvisor visitor reviews.
+- **Libraries and Tools**: Hugging Face Transformers, PyTorch, Docker, Heroku.
+- **Inspiration**: Tourism insights and data-driven decision-making.
+
+---
+
+## 📬 **Contact**
+
+For inquiries or collaborations, feel free to connect with me on:
+- **GitHub**: [AlexandrosPol](https://github.com/AlexandrosPol)
+- **LinkedIn**: [Alexandros Polyzoidis](https://linkedin.com/in/alexandros-polyzoidis)
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
