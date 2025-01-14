@@ -69,4 +69,5 @@ _Detailed breakdown of visitor feedback categorized by sentiment type._
 ## 📬 Contact  
 Interested in collaborating or learning more? Feel free to reach out:  
 - **GitHub**: [AlexandrosPol](https://github.com/AlexandrosPol)  
-- **LinkedIn**: [Alexandros Polyzoidis](https://linkedin.com/in/alexandros-polyzoidis)  
+- **LinkedIn**: [Alexandros Polyzoidis](https://linkedin.com/in/alexandros-polyzoidis)
+- **Personal Website**: [Alexandros Polyzoidis](https://alexandrospol.github.io/)
