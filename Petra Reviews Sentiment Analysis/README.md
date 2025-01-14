@@ -30,7 +30,7 @@
   - DistilBERT
   - RoBERTa
   - Twitter-RoBERTa (Optimal model)
-- **Training Framework**: PyTorch
+- **Training Framework**: PyTorch, transformers
 
 ---
 
