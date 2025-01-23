@@ -1,95 +1,126 @@
-# Data Science Projects
+# 🧠 **Data Science Projects**
 
-## Description
-This repository showcases my work on various data science projects, utilizing R and Python for statistical analysis and machine learning. Each project tackles a unique problem, from predictive modeling to pattern recognition in complex datasets.
+Welcome to my portfolio of data science projects!  
+Each folder represents a project tackling real-world challenges in **machine learning**, **data visualization**, and **statistical analysis**, implemented using **Python** and **R**.
 
-## Table of Contents
-- [Installation](#installation)
-- [Running the Scripts](#running-the-scripts)
-- [Projects](#projects)
-  - [Soil Data Clustering](#soil-data-clustering)
-  - [Market Basket Analysis](#market-basket-analysis)
-  - [Abalone Age Prediction](#abalone-age-prediction)
-  - [Titanic Survival Prediction](#titanic-survival-prediction)
-  - [CardsDeck Image Classification](#cardsdeck-image-classification)
-  - [Credit Card Fraud Detection](#credit-card-fraud-detection)
-  - [Digit Recognizer LSTM Model](#digit-recognizer-LSTMmodel)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-- [Acknowledgments](#acknowledgments)
+---
 
-## Installation
-For R projects:
-Before running the scripts, ensure that R and RStudio are installed on your system. The scripts rely on several R packages, which can be installed using the following command in the R console:
-`R`
+## 📚 **Table of Contents**
+1. [🌱 Soil Data Clustering](#1-soil-data-clustering)  
+2. [🌐 Market Basket Analysis](#2-market-basket-analysis)  
+3. [🐚 Abalone Age Prediction](#3-abalone-age-prediction)  
+4. [🚢 Titanic Survival Prediction](#4-titanic-survival-prediction)  
+5. [🃏 CardsDeck Image Classification](#5-cardsdeck-image-classification)  
+6. [💳 Credit Card Fraud Detection](#6-credit-card-fraud-detection)  
+7. [🔢 Digit Recognizer - LSTM Model](#7-digit-recognizer---lstm-model)  
+8. [🦜 Endangered Species Classifier](#8-endangered-species-classifier)  
+9. [😊 Emotion Classifier](#9-emotion-classifier)  
+10. [📝 Petra Reviews Sentiment Analysis](#10-petra-reviews-sentiment-analysis)  
+11. [📊 Results](#results)  
 
-install.packages(c("caret", "ggplot2", "cluster", "arules", "AppliedPredictiveModeling", "Metrics"))
+---
 
-For Python Projects:
+## 🚀 **Projects**
 
-packages used: numpy, pandas, matplotlib, seaborn, scikit-learn, torch, torchvision, timm, tqdm
+### 1. 🌱 Soil Data Clustering  
+- **Description**: Applied k-means clustering to soil data from Northern Greece, identifying patterns for optimized agricultural practices.  
+- **Language**: R  
+- **Technologies**: Clustering, Data Visualization.  
+- 📜 [Explore the Project](./Soil%20Types%20Identification%20Analysis)  
 
-## Running the Scripts
-Each script can be executed either within RStudio (for R projects) and using Jupyter Notebook or another IDE (for python projects).
+---
 
-## Projects
-### Soil Data Clustering
-This project applies k-means clustering to soil data from Northern Greece to identify patterns and inform better agricultural practices. [View the script](https://github.com/AlexandrosPol/Data-Science-Projects/blob/main/Soil%20Types%20Identification%20Analysis/Soil%20Dataset%20-%20k%20means%20clustering.R).
+### 2. 🌐 Market Basket Analysis  
+- **Description**: Used the Apriori algorithm to analyze traveler country visits, discovering insightful associations.  
+- **Language**: R  
+- **Technologies**: Association Rules, Data Mining.  
+- 📜 [Explore the Project](./Countries%20Visitation%20Analysis)  
 
-### Market Basket Analysis
-This project applies the apriori algorithm to discover patterns and trends in country visit data, revealing insights into traveler behaviors and country associations. [View the script](https://github.com/AlexandrosPol/Data-Science-Projects/blob/main/Countries%20Visitation%20Analysis/Countries%20Dataset%20-%20apriori%20algorithm.R).
+---
 
-### Abalone Age Prediction
-Using regression analysis and principal component analysis (PCA), this project aims to predict the age of abalones from their physical measurements, highlighting the impact of dimensionality reduction on predictive accuracy.  [View the script](https://github.com/AlexandrosPol/Data-Science-Projects/blob/main/Abalone%20Age%20Prediction/Abalone%20Dataset%20-%20linear%20regression%2Bpca.R).
+### 3. 🐚 Abalone Age Prediction  
+- **Description**: Predicted abalone age using linear regression and PCA, exploring dimensionality reduction's effects.  
+- **Language**: R  
+- **Technologies**: Regression, Principal Component Analysis (PCA).  
+- 📜 [Explore the Project](./Abalone%20Age%20Prediction)  
 
-### Titanic Survival Prediction
-Analyzing the Titanic dataset to predict survival rates using machine learning in Python. The project demonstrates data cleaning, exploratory data analysis, and the application of classification algorithms.
-The objective of the model is to predict whether passengers on the Titanic would have survived, based on features like passenger class, sex, age, number of siblings/spouses, parents/children on board, fare, and port of embarkation. This model could help us understand the factors that contributed to the likelihood of survival during the Titanic disaster. [View the script](https://github.com/AlexandrosPol/Data-Science-Projects/blob/main/Titanic%20Survival%20Prediction/Titanic%20Survival%20Prediction.ipynb).
+---
 
-### CardsDeck Image Classification
-This project involves classifying images of playing cards into their respective categories using deep learning. The dataset consists of images of playing cards, and the task is to correctly identify the rank and suit of each card.
-The project employs a convolutional neural network (CNN) implemented in PyTorch. The model is trained using a transfer learning approach with a pre-trained network from the timm library, specifically designed for image classification tasks.
-Key steps in the project include:
+### 4. 🚢 Titanic Survival Prediction  
+- **Description**: Predicted Titanic survival rates using machine learning classification models, focusing on feature importance.  
+- **Language**: Python  
+- **Technologies**: Scikit-learn, Exploratory Data Analysis.  
+- 📜 [Explore the Project](./Titanic%20Survival%20Prediction)  
 
-Data Preprocessing: Images are resized, normalized, and augmented to improve the model's generalization capability.
+---
 
-Model Training: A pre-trained model is fine-tuned on the cards dataset. Various hyperparameters such as learning rate, batch size, and number of epochs are optimized.
+### 5. 🃏 CardsDeck Image Classification  
+- **Description**: Classified playing card images into their rank and suit using a CNN and transfer learning.  
+- **Language**: Python  
+- **Technologies**: PyTorch, Transfer Learning.  
+- 📜 [Explore the Project](./Card%20Deck%20-%20Image%20Classification%20with%20PyTorch)  
 
-Evaluation: The model's performance is evaluated using accuracy metric.
+---
 
-The project demonstrates the use of advanced deep learning techniques and transfer learning to tackle an image classification problem. [View the script](https://github.com/AlexandrosPol/Data-Science-Projects/blob/main/Card%20Deck%20-%20Image%20Classification%20with%20PyTorch/card-deck-image-classification-with-pytorch.ipynb)
+### 6. 💳 Credit Card Fraud Detection  
+- **Description**: Built a deep learning model to detect fraudulent transactions in imbalanced datasets using SMOTE.  
+- **Language**: Python  
+- **Technologies**: PyTorch, Oversampling Techniques (SMOTE).  
+- 📜 [Explore the Project](./Credit%20Card%20Fraud%20Detection)  
 
-### Credit Card Fraud Detection
-This project involves building a deep learning neural network to detect fraudulent transactions in credit card data. The dataset is highly imbalanced, so techniques like SMOTE are used to improve detection. The model achieves high accuracy and precision for both fraud and non-fraud cases.
-[View the project](https://github.com/AlexandrosPol/Data-Science-Projects/tree/main/Credit%20Card%20Fraud%20Detection)
+---
 
-### Digit Recognizer-LSTM Model
-This project involves a sequence model built with LSTM to classify handwritten digits from the MNIST dataset.
-[View the project](https://github.com/AlexandrosPol/Data-Science-Projects/tree/main/Digit%20Recognizer%20-%20LSTM%20Model)
+### 7. 🔢 Digit Recognizer - LSTM Model  
+- **Description**: Implemented an LSTM-based model to classify handwritten digits from the MNIST dataset.  
+- **Language**: Python  
+- **Technologies**: PyTorch, LSTM.  
+- 📜 [Explore the Project](./Digit%20Recognizer%20-%20LSTM%20Model)  
 
-## Results
-Soil Data Clustering: Identified three distinct soil types, providing a basis for customized agricultural approaches.
+---
 
-Market Basket Analysis: Revealed strong association rules that provide insights into the interconnectedness of country visits.
+### 8. 🦜 Endangered Species Classifier  
+- **Description**: Classified endangered species using image data and pre-trained deep learning architectures.  
+- **Language**: Python  
+- **Technologies**: PyTorch, EfficientNet, MLflow.  
+- 📜 [Explore the Project](./Endangered%20Species%20Classifier)  
 
-Abalone Age Prediction: The linear regression model, prior to PCA, had a mean squared error (MSE) of 6.297. Post-PCA, with only two principal components used, the MSE slightly increased, indicating a trade-off between model simplicity and accuracy.
+---
 
-Titanic Survival Prediction: The best-performing model achieved an accuracy of 81%, highlighting key factors affecting survival chances.
+### 9. 😊 Emotion Classifier  
+- **Description**: Classified uploaded images as "happy" or "sad" using a TensorFlow CNN model and deployed a FastAPI-based application.  
+- **Language**: Python  
+- **Technologies**: TensorFlow, FastAPI, Docker, Heroku.  
+- 📜 [Explore the Project](./Emotion%20Classifier)  
 
-Detailed analysis and discussions are available within each script's comments and results sections.
+---
 
-CardsDeck Image Classification: Achieved an accuracy of 97% on the validation set, effectively classifying the rank and suit of playing cards.
+### 10. 📝 Petra Reviews Sentiment Analysis  
+- **Description**: Analyzed tourist reviews using sentiment analysis with BERT-based models to extract valuable insights.  
+- **Language**: Python  
+- **Technologies**: PyTorch, Transformers (RoBERTa, DistilBERT).  
+- 📜 [Explore the Project](./Petra%20Reviews%20Sentiment%20Analysis)  
 
-## Contributing
-I welcome contributions to this repository. Please fork the project, make your changes, and submit a pull request for review. Collaboration is key to advancing data science!
+---
 
-## License
-This repository and its contents are provided under the MIT License. This permissive license allows for sharing and adaptation with appropriate credit given. See the LICENSE.md for full terms.
+## 📊 **Results**
+### Highlights:  
+- **Soil Data Clustering**: Identified 3 distinct soil types, aiding farmers in agricultural strategies.  
+- **Market Basket Analysis**: Discovered strong association rules, revealing travel behavior patterns.  
+- **Abalone Age Prediction**: Demonstrated the impact of PCA on regression accuracy.  
+- **Titanic Survival Prediction**: Achieved 81% accuracy with key predictors like gender and class.  
+- **CardsDeck Classification**: Achieved 97% validation accuracy with transfer learning.  
+- **Credit Card Fraud Detection**: Successfully detected fraud in imbalanced datasets using SMOTE.  
+- **Emotion Classifier**: Accurately classified image emotions with a scalable API.  
 
-## Contact
-Feel free to reach out to me for questions, discussions, or collaboration proposals via [email](mailto:apolyzoidis@hotmail.com).
+---
 
-## Acknowledgments
-Special thanks to the data providers.
+## 📜 **License**  
+This repository is licensed under the [MIT License](LICENSE).  
+
+---
+
+## 📬 **Contact**  
+Feel free to connect with me for questions or collaborations:  
+- 💼 [LinkedIn](https://www.linkedin.com/in/alexandrospolyzoidis/)  
+- 🌐 [Portfolio](https://alexandrospol.github.io/)  
+- ✉️ [Email](mailto:apolyzoidis@hotmail.com)  
