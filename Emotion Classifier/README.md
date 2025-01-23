@@ -16,7 +16,7 @@ Users can upload images, and the model provides predictions with high accuracy.
 
 ## Deployment
 The application is deployed on **Heroku** and is accessible at:  
-[Emotion Classification API](https://emotion-classifier-2024.herokuapp.com/)
+[Emotion Classification API](https://emotion-classifier-app-636425c67bdf.herokuapp.com/docs)
 
 ---
 
